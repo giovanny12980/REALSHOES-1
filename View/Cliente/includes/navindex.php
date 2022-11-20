@@ -22,7 +22,7 @@
                 <a class="nav-link" href="View\Cliente\Login.php" tabindex="-1" aria-disabled="true">Iniciar Sesión</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="View\Cliente\Registrarse.php" tabindex="-1" aria-disabled="true">Registrarse</a>
+                <a class="nav-link" href="View\Cliente\LoginRegister.php" tabindex="-1" aria-disabled="true">Registrarse</a>
                 </li>
             </ul>
             </div>

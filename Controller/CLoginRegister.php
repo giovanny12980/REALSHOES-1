@@ -14,7 +14,7 @@ if(isset($_POST['registrar'])){
             $password =mysqli_real_escape_string($conectar, $_REQUEST['password']);
 
             $consulta = "INSERT INTO persona (idpersona,nombre, apellidos,direccion,usuario,contraseña, telefono, email,idtipodocp,idtipopersona, idrolp,fecha_creacion, ultima_modificacion, fecha_eliminacion )
-                        VALUES ($idpersona,null,null,null,null,'$password',null,'$email',1,1,6,now(),now(),null)";
+                        VALUES ($id,null,null,null,null,'$password',null,'$email',1,1,6,now(),now(),null)";
 
                 if(mysqli_query($conectar,$consulta)){
                     echo "<script>alert('Registro exitoso')
