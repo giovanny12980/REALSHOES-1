@@ -5,6 +5,7 @@ if(isset($_POST['registrar'])){
     $email =$_REQUEST['email'];
     $password =$_REQUEST['password'];
     $repassword =$_REQUEST['repassword'];
+    $idpersona = rand(1,32786);
 
     if($email!=null && $password!=null && $repassword!=null ){
         if($password == $repassword){
@@ -13,7 +14,7 @@ if(isset($_POST['registrar'])){
             $password =mysqli_real_escape_string($conectar, $_REQUEST['password']);
 
             $consulta = "INSERT INTO persona (idpersona,nombre, apellidos,direccion,usuario,contraseña, telefono, email,idtipodocp,idtipopersona, idrolp,fecha_creacion, ultima_modificacion, fecha_eliminacion )
-                        VALUES (null,null,null,null,null,'$password',null,'$email',1,1,6,now(),now(),null)";
+                        VALUES ($idpersona,null,null,null,null,'$password',null,'$email',1,1,6,now(),now(),null)";
 
                 if(mysqli_query($conectar,$consulta)){
                     echo "<script>alert('Registro exitoso')
