@@ -256,7 +256,7 @@ values('Registro Civil','Doc detallado de hechos relativos al id.',now(),now(),n
 
 ### DATOS TIPO PERSONA
 insert into tipo_persona (nombretp,descripcion_tp, fecha_creacion,ultima_modificacion,fecha_eliminacion)
-values ('natural', 'asdfg',now(),now(),null);
+values ('Natural', 'asdfg',now(),now(),null);
 insert into tipo_persona (nombretp,descripcion_tp, fecha_creacion,ultima_modificacion,fecha_eliminacion)
 values ('Jurídica', 'asdfg',now(),now(),null);
 

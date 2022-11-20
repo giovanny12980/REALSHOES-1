@@ -73,8 +73,9 @@
                     <button class='btn btn-success'>
                         <a class='text-light' href='UserUpdate.php?updateid=".$idp."'>Actualizar</a>
                     </button>
+
                     <button class='btn btn-warning'>
-                        <a  class='text-light' href='../../Controller/UserActive.php?activeid=".$idp."'>Activar</a>
+                            <a  class='text-light' href='../../Controller/UserActive.php?activeid=".$idp."'>Activar/<br>Desctivar</a>
                     </button>
 
                     <!--
