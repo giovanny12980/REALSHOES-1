@@ -83,7 +83,7 @@
                     <button type='button' class='btn btn-danger'><a  class='text-light' href='../../Controller/UserDelete.php?deleteid='.$idp.''>Confirmar Eliminar</a></button>
                     --->
 
-                    <!-- Button trigger modal -->
+                    <!-- BOTON FUNCIONAL ELIMINAR CON CONFIRMACION -->
                     <button type='button' class='btn btn-danger' data-bs-toggle='modal' data-bs-target='#exampleModal'>
                         Eliminar
                     </button>
