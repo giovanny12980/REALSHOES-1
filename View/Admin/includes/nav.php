@@ -10,23 +10,27 @@
                 <a class="nav-link active" aria-current="page" href="UserRegister.php">Persona</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link disabble" href="#">Proveedores</a>
-                </li>
-                <li class="nav-item">
                 <a class="nav-link" href="RegisterProduct.php">Productos</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="Inventario.php" tabindex="-1" aria-disabled="true">Inventario</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="RegisterSede.php" tabindex="-1" aria-disabled="true">Sedes</a>
                 </li>
+                <!---
+                <li class="nav-item">
+                <a class="nav-link disabble" href="#">Proveedores</a>
+                </li>
+                
+                <li class="nav-item">
+                <a class="nav-link" href="Inventario.php" tabindex="-1" aria-disabled="true">Inventario</a>
+                </li>
+                
                 <li class="nav-item">
                 <a class="nav-link" href="Ventas.php" tabindex="-1" aria-disabled="true">Ventas</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="Compras.php" tabindex="-1" aria-disabled="true">Compras</a>
                 </li>
+                -->
 
             </ul>
             </div>

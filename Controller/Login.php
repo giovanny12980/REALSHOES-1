@@ -10,12 +10,23 @@
 
         $email          = mysqli_real_escape_string($conectar, $_POST['email']);
         $password       = mysqli_real_escape_string($conectar, $_POST['password']);
+        
+        /**
+         * $passencriptado=password_hash($password, PASSWORD_DEFAULT);
+         * 
+         * if(password_verify($password, $fila['userpassword']) && $filas==1){}
+         * 
+         */
+
+        
 
         $consulta       = "SELECT * FROM persona WHERE email='$email'";
         $resultado      = mysqli_query($conectar, $consulta) or die(mysqli_connect_error());
         $fila          = mysqli_fetch_assoc($resultado);
     
         $filas          = mysqli_num_rows($resultado);
+
+        
 
         
         if($password == $fila['contraseña'] && $email == $fila['email']){

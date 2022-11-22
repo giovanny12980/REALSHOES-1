@@ -5,7 +5,7 @@ if(isset($_POST['registrar'])){
     $email =$_REQUEST['email'];
     $password =$_REQUEST['password'];
     $repassword =$_REQUEST['repassword'];
-    $idpersona = rand(1,32786);
+    $id = rand(1,32786);
 
     if($email!=null && $password!=null && $repassword!=null ){
         if($password == $repassword){
